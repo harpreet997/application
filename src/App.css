@@ -1,0 +1,180 @@
+li{
+  list-style-type: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sidebar a:hover{
+  color: lightblue;
+}
+
+.sidebar{
+  background-color: lightgray;
+  height: 660px;
+}
+
+.sidebar li{
+  padding-top: 20px;
+  
+}
+
+.main-section{
+  background-color: black;
+  height: 660px;
+}
+
+label{
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+select{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#scenarioList{
+  margin-left: 60px;
+}
+
+th, td{
+  color: white;
+  border: 2px solid grey;
+  padding: 25px;
+  text-align: center;
+}
+
+td {
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+}
+
+#start{
+  background-color: lightgreen;
+  color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 685px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+#stop{
+  background-color: aqua;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+
+h3{
+  color: lightgray;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.card{
+  background-color: rgb(156, 160, 163);
+  margin-left: 60px;
+  
+}
+
+.card label{
+  color: white;
+  
+}
+
+input{
+  border-radius: 5px;
+  height: 50px;
+}
+
+#add{
+  background-color: lightgreen;
+  color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+#addVehicle{
+  background-color: lightgreen;
+  color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+
+#reset, #deleteAll{
+  background-color: orange;
+  color: white;
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 5px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#goback{
+  background-color: lightskyblue;
+  color: white;
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+#newScenario{
+  background-color: lightskyblue;
+  color: white;
+  margin-top: 20px;
+  margin-left: 530px;
+  margin-right: 10px;
+  width: 120px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+
+#scenario_name, #scenario_time, #scenarios_list, #vehicle_name, #speed, #position_X, #position_Y, #direction{
+  font-size: 15px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+#scenarios_lists, #directions{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar {
+    height: 250px;
+  }
+}
