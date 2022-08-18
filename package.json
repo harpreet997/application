@@ -2,7 +2,7 @@
   "name": "application",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://harpreet997.github.io/react-application",
+  "homepage": "https://harpreet997.github.io/application",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
